@@ -1,0 +1,22 @@
+site_name: Departmental ERP Docs
+theme:
+  name: material
+  palette:
+    scheme: slate
+  features:
+    - navigation.expand
+    - search.highlight
+nav:
+  - Overview: index.md
+  - Methodology: methodology.md
+  - Technical Details: technical_details.md
+  - Database Design: database_design.md
+  - Results: results.md
+  - References: references.md
+plugins:
+  - search
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
